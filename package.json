@@ -3,6 +3,19 @@
   "private": true,
   "version": "0.0.1",
   "description": "A starter production ready template for a vite + react + ts project",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esanchezvz/vite_react_ts_starter.git"
+  },
+  "author": {
+    "name": "Esteban Sánchez Vázquez",
+    "email": "esteban.sanvaz@gmail.com"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">=14",
+    "yarn": ">=1.22.15"
+  },
   "scripts": {
     "build": "tsc && vite build",
     "dev": "vite",
