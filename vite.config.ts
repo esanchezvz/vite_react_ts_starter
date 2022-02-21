@@ -1,5 +1,7 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
 import react from '@vitejs/plugin-react'
 import * as path from 'path'
+// eslint-disable-next-line import/no-extraneous-dependencies
 import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
