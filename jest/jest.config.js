@@ -2,6 +2,7 @@ const path = require('path')
 
 const projectRoot = path.resolve(__dirname, '..')
 
+/** @type {import('jest').Config} */
 module.exports = {
   roots: [projectRoot],
   testEnvironment: 'jsdom',
